@@ -102,6 +102,20 @@ profile-photo {
   display: block;
   margin: 0 auto 15px; /* centers photo above your name */
 }
+hero {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to right, #004080, #6a5acd);
+  color: white;
+}
+
+.project-card {
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 
 /* Footer */
 footer {
