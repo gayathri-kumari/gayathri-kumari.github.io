@@ -6,16 +6,37 @@ body {
 }
 
 /* Hero Section */
-hero {
-    background: linear-gradient(-45deg, #0d0d0d, #1a1a1a, #6a5acd, #4b0082);
-    background-size: 400% 400%;
-    animation: heroGlow 20s ease infinite;
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, black, violet); /* simple gradient */
+    color: white;
 }
 
-@keyframes heroGlow {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%;}
+.hero h1 {
+    font-size: 2em;
+    margin: 20px 0 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+.hero button {
+    background: violet;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1em;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background: purple;
+    color: white;
 }
 
 /* Profile photo styling */
