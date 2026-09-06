@@ -73,7 +73,13 @@ h2 {
   border-radius: 10px;
   box-shadow: 0 6px 12px rgba(0,0,0,0.5);
 }
-
+/* Media query: adjust photo size for mobile screens */
+@media (max-width: 600px) {
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+    }
+}
 /* Footer */
 footer {
   text-align: center;
