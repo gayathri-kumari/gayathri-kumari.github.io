@@ -9,8 +9,9 @@ body {
 .hero {
     text-align: center;
     padding: 50px 20px;
-    background: #000;   /* solid black background */
+    background: #111;              /* softer black (not too deep) */
     color: white;
+    border-bottom: 3px solid violet; /* violet border line */
 }
 
 .hero h1 {
