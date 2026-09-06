@@ -15,15 +15,14 @@ body {
 }
 
 /* Profile photo styling */
-profile-photo {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid violet; /* adds a neat ring */
-    box-shadow: 0 0 15px rgba(128, 0, 128, 0.6); /* glowing effect */
+/* Profile photo styling */
+.profile-photo {
+    width: 200px;          /* same width */
+    height: 200px;         /* same height */
+    border-radius: 50%;    /* makes it circular */
+    object-fit: cover;     /* crops neatly without stretching */
     display: block;
-    margin: 20px auto;
+    margin: 20px auto;     /* centers the photo */
 }
 
 @media (max-width: 600px) {
