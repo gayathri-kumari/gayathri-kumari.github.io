@@ -111,16 +111,22 @@ h2 {
 
 /* Footer */
 footer {
-  text-align: center;
-  padding: 20px;
-  background: #111;
-  color: #aaa;
+    background: #111;               /* softer black */
+    color: #ccc;                    /* light text */
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    border-top: 3px solid violet;   /* violet border line */
+    font-size: 0.9em;
 }
+
+/* Footer links */
 footer a {
-  color: #6a5acd;
-  text-decoration: none;
-  margin: 0 10px;
+    color: violet;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.3s;
 }
 footer a:hover {
-  color: #fff;
+    color: white;
 }
